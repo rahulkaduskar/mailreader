@@ -1,0 +1,17 @@
+<h3> All Mails </h3>
+
+<div id="mail-container">
+	<% @mymails.each do |mail| %>
+		<div class="message_container block">
+			<div class="col1"><%= mail.from %></div>
+		
+			<div class="col2"><%= mail.subject %></div>
+			<div class="col3"><%= mail.received_at.strftime('%d/%m/%Y %I:%M %p')  %></div>
+			<div class="">&nbsp;</div>
+
+		    <div class="message hide">
+				<table  style=""><tr><td><%= mail.message.html_safe %></td></tr></table>
+			</div>
+		</div>
+	<% end %>
+</div>

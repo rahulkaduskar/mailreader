@@ -1,0 +1,1 @@
+MailReader::Application.config.secret_key_base = '22f628ce5c36dc7bb50df2a8c4bee82d80bdb01758147fd40ffe4efab671a060664028aa2102f11821bcec1fe06c93cf36d3c3d9281a947a3f41df85f4a00024'

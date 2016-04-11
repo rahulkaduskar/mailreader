@@ -1,0 +1,8 @@
+s application:
+1. Start rails server=> rails s ( from the rails application root folder)
+2. Start mail room ( command mail_room -c ./config/mail_room.yml )
+3. Start sidekiq (command  bundle exec sidekiq)
+
+To view the mails go to http://localhost:3000/mymail
+This page will show latest 20 mails.
+

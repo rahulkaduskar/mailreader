@@ -1,0 +1,12 @@
+
+<div class="message_container block">
+	<div class="col1"><%= from %></div>
+
+	<div class="col2"><%= subject %></div>
+	<div class="col3"><%= $.format.date(new Date(received_at), "dd/MM/yyyy HH:mm a")%></div>
+	<div class="">&nbsp;</div>
+
+	<div class="message hide">
+		<table  style=""><tr><td><%= message %></td></tr></table>
+	</div>
+</div>

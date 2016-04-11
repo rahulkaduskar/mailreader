@@ -1,0 +1,29 @@
+development:
+  adapter: mysql2
+  host: 127.0.0.1
+  pool: 20
+  username: root
+  password: root
+  database: mail_reader_dev
+  charset: utf8
+  collation: utf8_bin
+
+test:
+  adapter: mysql2
+  host: 127.0.0.1
+  pool: 20
+  username: root
+  password: root
+  database: mail_reader_test
+  charset: utf8
+  collation: utf8_bin
+
+production:
+  adapter: mysql2
+  host: 127.0.0.1
+  pool: 20
+  username: root
+  password: root
+  database: mail_reader_prod 
+  charset: utf8
+  collation: utf8_bin

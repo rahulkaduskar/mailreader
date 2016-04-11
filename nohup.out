@@ -1,0 +1,42 @@
+/home/rahul/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/net/imap.rb:1057:in `initialize': getaddrinfo: Name or service not known (SocketError)
+	from /home/rahul/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/net/imap.rb:1057:in `open'
+	from /home/rahul/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/net/imap.rb:1057:in `initialize'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/lib/mail_room/mailbox_watcher.rb:20:in `new'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/lib/mail_room/mailbox_watcher.rb:20:in `imap'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/lib/mail_room/mailbox_watcher.rb:88:in `log_in'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/lib/mail_room/mailbox_watcher.rb:69:in `setup'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/lib/mail_room/mailbox_watcher.rb:132:in `run'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/lib/mail_room/coordinator.rb:19:in `each'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/lib/mail_room/coordinator.rb:19:in `run'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/lib/mail_room/cli.rb:52:in `start'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/gems/mail_room-0.6.1/bin/mail_room:5:in `<top (required)>'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/bin/mail_room:23:in `load'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/bin/mail_room:23:in `<main>'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/rahul/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+Puma starting in single mode...
+* Version 3.2.0 (ruby 2.2.1-p85), codename: Spring Is A Heliocentric Viewpoint
+* Min threads: 0, max threads: 16
+* Environment: development
+/home/rahul/.rvm/gems/ruby-2.2.1/gems/activesupport-4.0.0/lib/active_support/values/time_zone.rb:282: warning: circular argument reference - now
+/home/rahul/.rvm/gems/ruby-2.2.1/gems/activesupport-4.0.0/lib/active_support/values/time_zone.rb:282: warning: circular argument reference - now
+* Listening on tcp://0.0.0.0:3001
+Use Ctrl-C to stop
+2016-04-05T09:50:41.207Z 10248 TID-2z2jc INFO: Running in ruby 2.2.1p85 (2015-02-26 revision 49769) [x86_64-linux]
+2016-04-05T09:50:41.207Z 10248 TID-2z2jc INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2016-04-05T09:50:41.207Z 10248 TID-2z2jc INFO: Upgrade to Sidekiq Pro for more features and support: http://sidekiq.org
+2016-04-05T09:50:41.208Z 10248 TID-2z2jc INFO: Booting Sidekiq 4.1.1 with redis options {:url=>nil}
+2016-04-05T09:50:41.209Z 10248 TID-2z2jc INFO: Starting processing, hit Ctrl-C to stop
+Puma starting in single mode...
+* Version 3.2.0 (ruby 2.2.1-p85), codename: Spring Is A Heliocentric Viewpoint
+* Min threads: 0, max threads: 16
+* Environment: development
+/home/rahul/.rvm/gems/ruby-2.2.1/gems/activesupport-4.0.0/lib/active_support/values/time_zone.rb:282: warning: circular argument reference - now
+/home/rahul/.rvm/gems/ruby-2.2.1/gems/activesupport-4.0.0/lib/active_support/values/time_zone.rb:282: warning: circular argument reference - now
+2016-04-05T09:56:14.857Z 10452 TID-79l08 INFO: Running in ruby 2.2.1p85 (2015-02-26 revision 49769) [x86_64-linux]
+2016-04-05T09:56:14.857Z 10452 TID-79l08 INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2016-04-05T09:56:14.857Z 10452 TID-79l08 INFO: Upgrade to Sidekiq Pro for more features and support: http://sidekiq.org
+2016-04-05T09:56:14.857Z 10452 TID-79l08 INFO: Booting Sidekiq 4.1.1 with redis options {:url=>nil}
+* Listening on tcp://0.0.0.0:3001
+Use Ctrl-C to stop
+2016-04-05T09:56:14.858Z 10452 TID-79l08 INFO: Starting processing, hit Ctrl-C to stop

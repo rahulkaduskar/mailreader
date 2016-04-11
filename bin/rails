@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+APP_PATH = File.expand_path('../../config/application', __FILE__)
+require_relative '../config/boot'
+require 'rails/commands'
+puts "Starting dependencies"
+system 'mail_room -c ./config/mail_room.yml &'
+system 'wsr &'
+system ' bundle exec sidekiq &'
+puts "Started"
+Rack::Handler::WEBrick = Rack::Handler.get(:puma)

@@ -1,0 +1,42 @@
+body {
+	background-color: #DFDFDF;
+	font-family: sans-serif;
+	font-size: 12px
+}
+.show {
+   display:block;
+}
+
+.hide{
+	display: none
+}
+
+span.bold {
+	font-weight: bold;
+	margin-right: 10px;
+}
+div.block {
+	border: 1px solid #7B7B7B;
+	border-bottom: 0px;
+    padding: 5px 15px;
+}
+.col1 {
+	float:left;
+	width: 20%;
+}
+
+.col2 {
+	float:left;
+	width: 55%;
+}
+.col3 {
+	float: right;
+}
+.selected{
+	background-color: #FFF;
+}
+
+div.message table {
+	border: 1px solid #CECDCD;
+	width: 100%;
+}

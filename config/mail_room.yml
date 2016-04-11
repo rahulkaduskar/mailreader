@@ -1,0 +1,12 @@
+---
+:mailboxes:
+  -
+    :email: "apitestrahul@gmail.com"
+    :password: "rahul1234"
+    :name: "inbox"
+    :delivery_method: sidekiq
+    :delivery_options:
+      :redis_url: redis://localhost:6379
+      :worker: EmailReceiverWorker
+
+
